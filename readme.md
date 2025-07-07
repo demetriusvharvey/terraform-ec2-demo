@@ -73,4 +73,14 @@ Terraform lifecycle commands.
 ![Terraform Code Screenshot](./ec2-deploy-code.png)
 ![EC2 Instance Proof](./ec2-proof.png)
 
+## Day 2: Refactor with Variables & Outputs
+
+In Day 2, I improved the Terraform configuration by:
+- Refactoring the EC2 config to use `variables.tf`
+- Creating `outputs.tf` to expose instance_id and public_ip
+- Applying the updated plan successfully
+
+### 📸 Screenshot
+
+![Terraform Apply Output](./day2-terraform-outputs.png)
 
