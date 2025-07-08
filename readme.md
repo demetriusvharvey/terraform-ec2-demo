@@ -91,3 +91,17 @@ Configured a remote backend to store Terraform state files in S3 and use DynamoD
 ### Screenshot
 
 ![Remote Backend Screenshot](./day3-remote-backend-s3.png)
+
+# Day 4 – Custom VPC with Terraform
+
+Today I created a production-ready VPC from scratch using Terraform.  
+The VPC includes:
+- A public subnet
+- An Internet Gateway
+- A Route Table with association
+- Outputs for `vpc_id` and `subnet_id`
+
+## Screenshot
+
+![Day 4 Output](./day4-vpc-terraform-output.png)
+
