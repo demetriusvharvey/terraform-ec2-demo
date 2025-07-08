@@ -84,3 +84,10 @@ In Day 2, I improved the Terraform configuration by:
 
 ![Terraform Apply Output](./day2-terraform-outputs.png)
 
+## Day 3: Remote Backend with S3 + DynamoDB
+
+Configured a remote backend to store Terraform state files in S3 and use DynamoDB for state locking.
+
+### Screenshot
+
+![Remote Backend Screenshot](./day3-remote-backend-s3.png)
