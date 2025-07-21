@@ -105,3 +105,12 @@ The VPC includes:
 
 ![Day 4 Output](./day4-vpc-terraform-output.png)
 
+## Day 5 – GitHub Actions CI for Terraform
+
+Set up a continuous integration (CI) workflow using GitHub Actions to automatically run `terraform init` and `terraform plan` whenever changes are pushed to the repository.
+
+- Validates syntax and ensures Terraform plans succeed before deployment.
+- Helps enforce infrastructure as code quality in a CI/CD pipeline.
+
+📸 Screenshot:
+![Terraform CI](day5-terraform-ci.png)
