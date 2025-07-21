@@ -114,3 +114,20 @@ Set up a continuous integration (CI) workflow using GitHub Actions to automatica
 
 📸 Screenshot:
 ![Terraform CI](day5-terraform-ci.png)
+
+### ✅ Day 6: EC2 Deployment with Apache (Terraform)
+
+- Provisioned an EC2 instance using Terraform
+- Used `user_data` to install and configure Apache
+- Created custom Security Group allowing HTTP (80) and SSH (22)
+- Accessed site via public IP: http://<your-ip>
+- Confirmed success via browser + SSH validation
+
+🧰 Tools Used:
+- AWS EC2
+- Terraform
+- Amazon Linux 2
+- Apache (httpd)
+
+📸 Screenshot:
+![Deployed EC2 Web Server](day06-ec2-apache-success.png)
