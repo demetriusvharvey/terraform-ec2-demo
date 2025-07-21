@@ -131,3 +131,14 @@ Set up a continuous integration (CI) workflow using GitHub Actions to automatica
 
 📸 Screenshot:
 ![Deployed EC2 Web Server](day06-ec2-apache-success.png)
+
+## ✅ Day 7 - CI/CD with GitHub Actions
+
+### What I did:
+- Set up a GitHub Actions workflow to automate `terraform init`, `plan`, and `fmt`
+- Enforced code formatting with `terraform fmt -check`
+- Used GitHub Secrets for secure AWS credentials
+- Confirmed successful run with green check ✅
+
+### Screenshot:
+![Day 7 CI/CD Success](day07-ci-success.png)
